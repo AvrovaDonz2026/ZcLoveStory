@@ -19,5 +19,8 @@
 /game/template/*
   Cache-Control: no-cache
 
+/game/userStyleSheet.css
+  Cache-Control: no-cache
+
 /game/config.txt
   Cache-Control: no-cache
