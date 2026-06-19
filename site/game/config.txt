@@ -1,0 +1,5 @@
+Game_name:社长恋爱物语;
+Game_key:shezhang-love-story;
+Default_Language:zh_CN;
+Enable_Appreciation:false;
+Enable_Continue:false;

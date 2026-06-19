@@ -1,0 +1,23 @@
+/game/background/*
+  Cache-Control: public, max-age=31556952, immutable
+
+/game/figure/*
+  Cache-Control: public, max-age=31556952, immutable
+
+/game/bgm/*
+  Cache-Control: public, max-age=31556952, immutable
+
+/game/vocal/*
+  Cache-Control: public, max-age=31556952, immutable
+
+/game/video/*
+  Cache-Control: public, max-age=31556952, immutable
+
+/game/scene/*
+  Cache-Control: no-cache
+
+/game/template/*
+  Cache-Control: no-cache
+
+/game/config.txt
+  Cache-Control: no-cache

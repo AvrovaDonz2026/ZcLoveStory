@@ -1,0 +1,17 @@
+.agents/
+.codex/
+tmp/
+__pycache__/
+*.pyc
+
+# Generated intermediate/reference images. Final runtime assets live under
+# site/game/background, site/game/figure, and site/game/template/assets.
+site/game/reference/
+
+# Private/raw source material. Do not publish these with the deployable VN.
+参考/
+War Wolf II ：what did wsn do ？.pdf
+
+# Local OS/editor noise.
+.DS_Store
+Thumbs.db
