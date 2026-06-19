@@ -16,6 +16,16 @@
 
 `site/_headers` 对图片、音频、视频目录设置长期缓存，对 `game/config.txt` 和 `game/scene/*` 设置 `no-cache`。
 
+## GitHub Pages
+
+本仓库使用 GitHub Actions 部署 GitHub Pages，避免把 `site/` 搬到仓库根目录或 `/docs`。
+
+- Workflow：`.github/workflows/pages.yml`
+- 触发：推送到 `main`，或手动 `workflow_dispatch`
+- Artifact path：`site`
+
+GitHub 仓库设置里需要将 Pages 的 Build and deployment / Source 设为 `GitHub Actions`。之后每次推送 `main`，workflow 会把 `site/` 打包并通过 `actions/deploy-pages` 发布。
+
 ## 本地预览
 
 在仓库根目录运行任意静态服务器，例如：
